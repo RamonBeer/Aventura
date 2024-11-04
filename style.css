@@ -70,8 +70,8 @@ a {
 }
 
 .rolagem {
-    height: 650px;
-    width: 350px;
+    height: 600px;
+    width: 300px;
     overflow-y: auto;
     border: 1px solid #ccc;
     padding: 10px;
