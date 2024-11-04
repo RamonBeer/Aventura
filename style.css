@@ -69,6 +69,7 @@ a {
     color: yellow;
 }
 
+@media(max-height: 700)
 .rolagem {
     height: 600px;
     width: 300px;
