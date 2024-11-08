@@ -60,6 +60,11 @@ button {
 
 .passo {
     display: none; 
+    border: 1px solid #000;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
 }
 
 .passo.ativo {
@@ -71,7 +76,14 @@ a {
     color: yellow;
 }
 
-@media(max-width: 400px)
+.rolagem {
+    font-size: 1rem;
+    line-height: 1.5;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+
+/*@media(max-width: 400px)
     .rolagem {
         height: 600px;
         width: 250px;
@@ -90,5 +102,5 @@ a {
         #fim-de-jogo {
             font-size: 20px;
        }
-}
+} */
 
