@@ -38,6 +38,13 @@ p {
     padding: 10px;
     text-align: justify; 
     font-size: 12px;
+    border: 1px solid #000;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    max-height: 200px;
+    box-sizing: border-box;
+    overflow-y: auto;
 }
 
 l {
@@ -60,13 +67,6 @@ button {
 
 .passo {
     display: none; 
-    border: 1px solid #000;
-    padding: 10px;
-    width: 100%;
-    max-width: 500px;
-    max-height: 200px;
-    box-sizing: border-box;
-    overflow-y: auto;
 }
 
 .passo.ativo {
